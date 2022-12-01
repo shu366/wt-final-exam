@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q8</title>
+    <script>
+        var now = new Date();
+        var hrs = now.getHours();
+        var msg = "";
+
+        if (hrs >  0) msg = "Mornin' Sunshine!"; 
+        if (hrs >  6) msg = "Good morning";      
+        if (hrs > 12) msg = "Good afternoon";    
+        if (hrs > 17) msg = "Good evening";      
+        if (hrs > 22) msg = "Go to bed!";       
+
+        alert(msg);
+        console.log(msg);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
